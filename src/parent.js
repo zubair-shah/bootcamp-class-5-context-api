@@ -7,7 +7,8 @@ const Parent = (props) =>{
         <div>
             <h1>I am Parent</h1>
 
-         <Child name={props.name} />
+         {/* <Child name={props.name} /> */}
+         <Child />
         </div>
     )
 }
